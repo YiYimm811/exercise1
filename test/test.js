@@ -1,4 +1,4 @@
-var assert = require('assert')
+var assert = require('assert');
 
 describe('Array', function() {
   describe('#indexOf()', function() {
@@ -19,10 +19,10 @@ describe('assert', function () {
       c: {
         e: 1
       }
-    }
+    };
     // 修改下面代码使得满足测试描述
     assert.equal(a, b)
-  })
+  });
 
   it('可以捕获并验证函数fn的错误', function () {
     function fn() {
@@ -31,4 +31,4 @@ describe('assert', function () {
     // 修改下面代码使得满足测试描述
     fn()
   })
-})
+});
